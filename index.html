@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Travel Adventure</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Discover Your Next Adventure</h1>
+        <p>Explore the world with us</p>
+        <a href="#" class="cta-button">Explore Now</a>
+    </section>
+
+    <!-- Destinations Showcase -->
+    <section class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination">
+                <img src="destination1.jpg" alt="Destination 1">
+                <h3>Paris</h3>
+                <p>The city of lights</p>
+            </div>
+            <div class="destination">
+                <img src="destination2.jpg" alt="Destination 2">
+                <h3>Bali</h3>
+                <p>Island of Gods</p>
+            </div>
+            <div class="destination">
+                <img src="destination3.jpg" alt="Destination 3">
+                <h3>New York</h3>
+                <p>The city that never sleeps</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What Our Travelers Say</h2>
+        <div class="testimonial-carousel">
+            <div class="testimonial">
+                <p>"Amazing experience! Highly recommend."</p>
+                <h3>John Doe</h3>
+            </div>
+            <div class="testimonial">
+                <p>"A trip of a lifetime!"</p>
+                <h3>Jane Smith</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <p>&copy; 2024 Travel Adventure. All rights reserved.</p>
+    </footer>
+</body>
+</html>
